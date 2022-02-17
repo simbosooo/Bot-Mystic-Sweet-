@@ -55,7 +55,7 @@ module.exports = class extends Client {
    
 
             async connectToDatabase() {
-                const connection = await connect('mongodb+srv://edu:edu@mysevers.9jj0z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+                const connection = await connect('LOGIN_MONGDB', {
                     useNewUrlParser: true,
                     useUnifiedTopology: true,
                 })
